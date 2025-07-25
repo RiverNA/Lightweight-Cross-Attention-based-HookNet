@@ -60,7 +60,7 @@ class FFN(nn.Module):
 
     def forward(self, x):
         skip = x
-        x = self.MLP_1(self.GELU(self.MLP_0(self.Norm(self.DW(x).permute(0, 2, 3, 1)).permute(0, 3, 1, 2))))
+        x = self.MLP_1(self.GELU(self.MLP_0(self.Norm(self.DW(x).permute(0, 2, 3, 1).contiguous()).permute(0, 3, 1, 2).contiguous())))
         return self.drop_path(x) + skip
 
 
