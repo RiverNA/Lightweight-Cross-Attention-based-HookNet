@@ -67,7 +67,7 @@ for i in range(len(ims)):
 
     pil_img = transforms.Pad(padding_ltrb, padding_mode='symmetric')(img)
     pil_img = transforms.ToTensor()(pil_img)
-    save_image(pil_img, os.path.join(imagesa, suffix))
+    save_image(pil_img, os.path.join(images, suffix))
 
 for i in range(len(mas)):
     img = Image.open(mas[i])
@@ -89,7 +89,7 @@ for i in range(len(mas)):
 
     pil_img = transforms.Pad(padding_ltrb, padding_mode='symmetric')(img)
     pil_img = transforms.ToTensor()(pil_img)
-    save_image(pil_img, os.path.join(masksa, suffix))
+    save_image(pil_img, os.path.join(masks, suffix))
 
 for i in range(len(imsv)):
     img = Image.open(imsv[i])
