@@ -184,7 +184,7 @@ if __name__ == '__main__':
     cfg.in_channels = 3
     cfg.n_filters = 16
     cfg.batch_size = 16
-    cfg.total_epoch = 3
+    cfg.total_epoch = 300
     eepoch = 0
     cfg.load = None
     model = Light_HookNet(cfg.in_channels, cfg.n_classes, cfg.filter_size, cfg.n_filters)
