@@ -15,7 +15,7 @@ Handwritten document layout analysis is a fundamental step in digitizing scanned
 Prepare train/validation/test datasets based on [DIVA-HisDB](https://diuf.unifr.ch/main/hisdoc/diva-hisdb.html) / [U-DIADS-Bib](https://sites.google.com/view/avml-lab-udiadsbib/home), run center_crop.py, Sliding_window_generate_dataset.py, generate_target_context.py accordingly.
 
 ### Inference
-Please refer to the officially released evaluation tools of [DIVA-HisDB](https://github.com/DIVA-DIA/DIVA_Layout_Analysis_Evaluator) and [U-DIADS-Bib](https://ai4ch.uniud.it/udiadscomp/data.html) for assessing experimental results.
+Please refer to the officially released evaluation tools of [DIVA-HisDB](https://github.com/DIVA-DIA/DIVA_Layout_Analysis_Evaluator) and [U-DIADS-Bib](https://sites.google.com/view/avml-lab-sam-icdar2024/home) for assessing experimental results.
 
 ### License
 Licensed under an MIT license.
@@ -28,8 +28,11 @@ author={Wu, Fei and Seuret, Mathias and Mayr, Martin and Kordon, Florian and Z{\
 title={Lightweight cross-attention-based HookNet for historical handwritten document layout analysis},
 journal={International Journal on Document Analysis and Recognition (IJDAR)},
 year={2025},
-month={Apr},
-day={19},
+month={Sep},
+day={01},
+volume={28},
+number={3},
+pages={409-427},
 issn={1433-2825},
 doi={10.1007/s10032-025-00519-9},
 url={https://doi.org/10.1007/s10032-025-00519-9}}
